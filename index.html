@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mukesh Kunwar | Data Analyst Portfolio</title>
+<meta name="description" content="Portfolio and CV of Mukesh Kunwar, Data Analyst and Business Intelligence Analyst based in London, UK.">
+<meta property="og:title" content="Mukesh Kunwar | Data Analyst Portfolio">
+<meta property="og:description" content="MSc Information Systems student with experience in MIS, digital reporting, databases and GIS support.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="nav" id="top">
+  <a class="brand" href="#top" id="brand">MK</a>
+  <nav id="menu" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <div class="dl-menu">
+      <button class="btn mini primary" id="dlBtn" aria-haspopup="true" aria-expanded="false">⬇ CV</button>
+      <div class="dl-pop" id="dlPop" hidden>
+        <a id="dlPdf" href="#" download>📄 PDF version</a>
+        <a id="dlDocx" href="#" download>📝 Word version</a>
+      </div>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">🌓</button>
+    <button id="menuBtn" class="icon-btn menu-toggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+    <canvas id="bgCanvas" class="hero-bg" aria-hidden="true"></canvas>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow" id="location"></p>
+        <h1 id="heroName">Mukesh Kunwar</h1>
+        <p class="typed-line"><span id="typed"></span><span class="cursor">|</span></p>
+        <p class="lead" id="tagline"></p>
+        <div class="btn-row">
+          <a class="btn primary" id="cvBtn" href="#" download>⬇ Download CV</a>
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+        <div class="social" id="social"></div>
+      </div>
+      <div class="profile">
+        <div class="photo-ring"><img id="photo" alt="Portrait of Mukesh Kunwar" width="320" height="320"></div>
+        <div class="chips-float" id="heroChips"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap stats" id="stats"></section>
+
+  <section class="wrap section" id="about">
+    <h2>About me</h2>
+    <div class="about-grid">
+      <div>
+        <p class="about" id="summary"></p>
+        <p class="langs" id="langs"></p>
+        <div class="donut-card reveal" id="donutCard"></div>
+      </div>
+      <div class="about-art reveal"><img src="images/about.svg" alt="Illustration of a laptop showing charts and dashboards" loading="lazy"></div>
+    </div>
+  </section>
+
+  <section class="band"><div class="wrap section" id="skills">
+    <h2>Skills</h2>
+    <div class="grid skills-grid" id="skillsGrid"></div>
+  </div></section>
+
+  <section class="wrap section" id="toolkit" hidden>
+    <h2>Data toolkit</h2>
+    <div class="grid two" id="toolkitGrid"></div>
+  </section>
+
+  <section class="wrap section" id="experience">
+    <div class="head-row">
+      <h2>Experience</h2>
+      <div class="tools">
+        <input id="cvSearch" class="search" type="search" placeholder="Search my CV: GIS, website, data…" aria-label="Search my CV">
+        <button class="chip" id="expToggle" aria-pressed="false">Show all roles</button>
+      </div>
+    </div>
+    <p class="muted" id="expNote"></p>
+    <div class="chart-wrap reveal"><h3 class="chart-title">Career timeline</h3><div class="chart-scroll"><svg id="careerChart" role="img" aria-label="Career timeline chart"></svg></div>
+      <div class="legend"><span><i class="dot hi"></i>Data, IT &amp; reporting roles</span><span><i class="dot lo"></i>Other roles</span></div></div>
+    <div class="timeline" id="timeline"></div>
+  </section>
+
+  <section class="band"><div class="wrap section" id="projects">
+    <div class="head-row"><h2>Projects</h2><div class="chips" id="projectFilters"></div></div>
+    <div class="grid project-grid" id="projectGrid"></div>
+  </div></section>
+
+  <section class="wrap section" id="gallery">
+    <div class="head-row">
+      <h2>Gallery</h2>
+      <div class="chips" id="galleryFilters"></div>
+    </div>
+    <p class="muted">Photos from my previous work and community activities.</p>
+    <div class="gallery" id="galleryGrid"></div>
+  </section>
+
+  <section class="band"><div class="wrap section" id="education">
+    <h2>Education</h2>
+    <div class="grid two" id="eduGrid"></div>
+    <h2 class="sub">Leadership &amp; community</h2>
+    <div class="grid two" id="communityGrid"></div>
+  </div></section>
+
+  <section class="wrap section" id="cv">
+    <div class="cv-card reveal">
+      <div class="cv-art"><img src="images/cv-card.svg" alt="Illustration of a CV document" loading="lazy"></div>
+      <div class="cv-info">
+        <p class="eyebrow">Resume</p>
+        <h2>Download my CV</h2>
+        <p class="lead" id="cvLead"></p>
+        <ul class="cv-points" id="cvPoints"></ul>
+        <div class="btn-row">
+          <a class="btn primary dl-btn" id="cvPdfBtn" href="#" download>⬇ Download PDF</a>
+          <a class="btn dl-btn" id="cvDocxBtn" href="#" download>📝 Word version</a>
+        </div>
+        <p class="muted small">PDF is best for applications. The Word version is editable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section contact" id="contact">
+    <div class="cta">
+      <h2>Let’s connect</h2>
+      <p class="lead">I’m open to Data Analyst and Business Intelligence opportunities.</p>
+      <div class="btn-row center">
+        <a class="btn light" id="mailBtn" href="#">✉ Email me</a>
+        <a class="btn ghost" id="cvBtn2" href="#" download>⬇ Download CV</a>
+      </div>
+    </div>
+    <form class="form" id="contactForm" novalidate>
+      <label>Your name<input name="name" required autocomplete="name"></label>
+      <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <button class="btn primary" type="submit">Send message</button>
+      <p class="muted" id="formStatus" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer"><div class="wrap"><span id="footName"></span> · <span id="year"></span></div></footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+  <button class="lb-play" id="lbPlay" aria-label="Start slideshow">▶ Slideshow</button>
+  <button class="lb-nav prev" id="lbPrev" aria-label="Previous">‹</button>
+  <figure>
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-nav next" id="lbNext" aria-label="Next">›</button>
+</div>
+
+<noscript><p style="padding:2rem;text-align:center">Please enable JavaScript to view this portfolio.</p></noscript>
+<button class="to-top" id="toTop" aria-label="Back to top" hidden>↑</button>
+<div class="tip" id="tip" hidden></div>
+<script src="js/app.js"></script>
+<script src="js/effects.js"></script>
+</body>
+</html>
