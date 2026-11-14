@@ -1,0 +1,266 @@
+{
+  "name": "Mukesh Kunwar",
+  "title": "Data Analyst | Business Intelligence Analyst",
+  "typedRoles": [
+    "Data Analyst",
+    "Business Intelligence Analyst",
+    "MIS & Reporting Specialist",
+    "MSc Information Systems Student"
+  ],
+  "tagline": "Turning operational information into clear, accurate and useful reporting.",
+  "location": "Southall, London, UK",
+  "email": "mukeshrsldc@gmail.com",
+  "links": {
+    "github": "",
+    "linkedin": ""
+  },
+  "cvFile": "assets/Mukesh_Kunwar_Data_Analyst_CV.docx",
+  "summary": "MSc Information Systems student with a Bachelor in Computer Application and experience across municipal IT support, management information systems (MIS), digital reporting, data entry, database handling and GIS-related support. Experienced in maintaining IT systems, supporting users, updating websites and online platforms, and working with operational information. Brings strong problem-solving, communication and coordination skills, with an interest in applying information systems experience to data analysis and business intelligence roles.",
+  "stats": [
+    {
+      "value": 8,
+      "suffix": "",
+      "label": "Roles held",
+      "icon": "💼"
+    },
+    {
+      "value": 3,
+      "suffix": "",
+      "label": "Countries worked in",
+      "icon": "🌍"
+    },
+    {
+      "value": 4,
+      "suffix": "",
+      "label": "Languages spoken",
+      "icon": "🗣️"
+    },
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Years as municipal IT Officer",
+      "icon": "🏛️"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Data & Reporting",
+      "icon": "📊",
+      "items": [
+        "Data entry & database handling",
+        "MIS & digital reporting",
+        "Data accuracy & record maintenance",
+        "GIS mapping support"
+      ]
+    },
+    {
+      "group": "IT & Systems",
+      "icon": "🖥️",
+      "items": [
+        "IT systems & user support",
+        "Hardware & software troubleshooting",
+        "Network administration",
+        "Server-related operations"
+      ]
+    },
+    {
+      "group": "Web & Platforms",
+      "icon": "🌐",
+      "items": [
+        "Website & online platform updates",
+        "Mobile application support",
+        "Web design & development"
+      ]
+    },
+    {
+      "group": "Professional",
+      "icon": "🤝",
+      "items": [
+        "Problem-solving",
+        "Communication & teamwork",
+        "Customer service",
+        "Training & teaching",
+        "Community leadership"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Door Supervisor",
+      "org": "Fortel Security Services",
+      "place": "UK",
+      "period": "Sep 2026 – Present",
+      "relevant": false,
+      "points": [
+        "Carry out access control duties and help ensure entry follows the required procedures.",
+        "Monitor site activity, report concerns and communicate professionally with visitors and management."
+      ]
+    },
+    {
+      "role": "Cleaning Operative",
+      "org": "Principle Cleaning",
+      "place": "London, UK",
+      "period": "Jan 2026 – Sep 2026",
+      "relevant": false,
+      "points": [
+        "Completed routine and deep-cleaning duties in line with hygiene and safety requirements.",
+        "Operated cleaning equipment and followed safe procedures for chemicals."
+      ]
+    },
+    {
+      "role": "IT Officer",
+      "org": "Besishahar Municipality",
+      "place": "Nepal",
+      "period": "Jan 2018 – Sep 2025",
+      "relevant": true,
+      "points": [
+        "Provided day-to-day IT support and resolved hardware, software and maintenance issues.",
+        "Supported user accounts, management information systems (MIS) and digital reporting activities.",
+        "Updated and maintained municipal websites, mobile applications and online platforms.",
+        "Supported network administration, connectivity and server-related operations.",
+        "Worked with GIS mapping and related digital information to support municipal activities."
+      ]
+    },
+    {
+      "role": "Computer Teacher",
+      "org": "Universal Academy",
+      "place": "Nepal",
+      "period": "Aug 2022 – Jun 2025",
+      "relevant": true,
+      "points": [
+        "Delivered computer lessons and supported students in developing practical ICT skills.",
+        "Prepared learning materials and supported classroom learning."
+      ]
+    },
+    {
+      "role": "Computer Teacher",
+      "org": "Shree Vidhya Bikash Secondary School",
+      "place": "Nepal",
+      "period": "Aug 2016 – Aug 2017",
+      "relevant": false,
+      "points": [
+        "Taught ICT to students in Classes 1–8 and supported practical computer-learning activities."
+      ]
+    },
+    {
+      "role": "Data Entry Operator",
+      "org": "Rajasthan Skills & Livelihood Development Corporation",
+      "place": "India",
+      "period": "Aug 2015 – Aug 2016",
+      "relevant": true,
+      "points": [
+        "Entered and maintained programme and trainee information with attention to accurate records.",
+        "Supported network-related tasks and assisted with supervising trainees."
+      ]
+    },
+    {
+      "role": "Computer Operator",
+      "org": "Shree Ganesh Traders and L.L. Marketing",
+      "place": "India",
+      "period": "Apr 2013 – Mar 2015",
+      "relevant": true,
+      "points": [
+        "Carried out data-entry and computer-based administrative tasks.",
+        "Coordinated with suppliers and supported the handling of business information."
+      ]
+    },
+    {
+      "role": "Web Developer",
+      "org": "NIFE Web Technology",
+      "place": "India",
+      "period": "Jan 2012 – Mar 2013",
+      "relevant": true,
+      "points": [
+        "Assisted with website design and development tasks.",
+        "Communicated with clients to understand requirements and provide updates."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Sample: Sales Dashboard",
+      "description": "Replace this card with a real project. Describe the data, the question you answered and the result.",
+      "tags": [
+        "Excel",
+        "Power BI"
+      ],
+      "link": "",
+      "placeholder": true,
+      "image": "images/projects/dashboard.svg"
+    },
+    {
+      "title": "Sample: Data Cleaning Case Study",
+      "description": "Show a messy dataset you cleaned and what changed. Add a link to the notebook or repo.",
+      "tags": [
+        "SQL",
+        "Python"
+      ],
+      "link": "",
+      "placeholder": true,
+      "image": "images/projects/data-cleaning.svg"
+    },
+    {
+      "title": "Sample: GIS Map / Municipal Report",
+      "description": "Link to a map, report or analysis from your municipal work (remove any confidential data).",
+      "tags": [
+        "GIS",
+        "Reporting"
+      ],
+      "link": "",
+      "placeholder": true,
+      "image": "images/projects/gis-map.svg"
+    }
+  ],
+  "education": [
+    {
+      "title": "Enhanced Extended MSc Information Systems",
+      "org": "University of West London, UK",
+      "period": "Currently studying"
+    },
+    {
+      "title": "Bachelor in Computer Application (BCA)",
+      "org": "Maharaja Ganga Singh University, India",
+      "period": "2011 – 2013"
+    }
+  ],
+  "community": [
+    {
+      "title": "President, Rotary Club of Lamjung",
+      "place": "Nepal",
+      "period": "2024 – 2025",
+      "text": "Led community initiatives and supported the planning and delivery of club events."
+    },
+    {
+      "title": "President, Rotaract Club of Lamjung",
+      "place": "Nepal",
+      "period": "2021 – 2022",
+      "text": "Coordinated education and social projects, fundraising activities and community support initiatives."
+    }
+  ],
+  "languages": [
+    "Nepali (Native)",
+    "English",
+    "Hindi",
+    "Punjabi"
+  ],
+  "contact": {
+    "formEndpoint": ""
+  },
+  "toolkit": {
+    "known": [],
+    "learning": []
+  },
+  "photo": "images/profile.jpg",
+  "heroChips": [
+    "📍 London, UK",
+    "🎓 MSc Information Systems",
+    "📊 Data & BI"
+  ],
+  "cvPdf": "assets/Mukesh_Kunwar_Data_Analyst_CV.pdf",
+  "cvBlurb": "A two-page CV tailored for Data Analyst and Business Intelligence roles.",
+  "cvPoints": [
+    "Professional profile and key skills",
+    "Experience across IT support, MIS reporting, data entry and GIS",
+    "MSc Information Systems and Bachelor in Computer Application"
+  ]
+}

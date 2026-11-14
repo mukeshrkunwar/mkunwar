@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/gallery/Community/sample-community-group.svg",
+    "title": "Sample Community Group",
+    "description": "",
+    "year": "",
+    "category": "Community"
+  },
+  {
+    "src": "images/gallery/Community/sample-event-stage.svg",
+    "title": "Sample Event Stage",
+    "description": "",
+    "year": "",
+    "category": "Community"
+  },
+  {
+    "src": "images/gallery/IT-and-Web/sample-network-setup.svg",
+    "title": "Sample Network Setup",
+    "description": "",
+    "year": "",
+    "category": "IT and Web"
+  },
+  {
+    "src": "images/gallery/IT-and-Web/sample-website-design.svg",
+    "title": "Sample Website Design",
+    "description": "",
+    "year": "",
+    "category": "IT and Web"
+  },
+  {
+    "src": "images/gallery/Teaching/sample-classroom.svg",
+    "title": "Sample Classroom",
+    "description": "",
+    "year": "",
+    "category": "Teaching"
+  },
+  {
+    "src": "images/gallery/Teaching/sample-computer-lab.svg",
+    "title": "Sample Computer Lab",
+    "description": "",
+    "year": "",
+    "category": "Teaching"
+  }
+]
