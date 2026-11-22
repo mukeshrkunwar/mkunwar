@@ -323,7 +323,7 @@ h2::after{content:"";display:block;width:56px;height:4px;border-radius:4px;margi
 <body>
 <div class="progress" id="progress"></div>
 <header class="nav" id="top">
-  <a class="brand" href="#top" id="brand">MK</a>
+  <a class="brand" href="#top" id="brand" title="Back to top" aria-label="Mukesh Kunwar, back to top">MK</a>
   <nav id="menu" aria-label="Main">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
@@ -510,6 +510,12 @@ h2::after{content:"";display:block;width:56px;height:4px;border-radius:4px;margi
     try { localStorage.setItem("theme", root.dataset.theme); } catch {}
   });
   $("menuBtn").addEventListener("click", () => $("menu").classList.toggle("open"));
+  $("brand").addEventListener("click", (e) => {
+    e.preventDefault();
+    $("menu").classList.remove("open");
+    scrollTo({ top: 0, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    history.replaceState(null, "", location.pathname + location.search);
+  });
   $("menu").addEventListener("click", e => { if (e.target.tagName === "A") $("menu").classList.remove("open"); });
 
   /* ---------- download menu ---------- */
